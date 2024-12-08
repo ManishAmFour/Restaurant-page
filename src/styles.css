@@ -1,0 +1,39 @@
+/* styles.css */
+
+  .Heading{
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 100px;
+
+
+  }
+
+  .top-bar{
+    position: fixed;
+    background-color: aquamarine;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+
+  }
+  
+
+  .menu-order{
+
+    display: grid;
+    grid-template-columns: 1fr auto ;
+row-gap: 100px;
+  }
+
+  .food{
+
+    height: 100px;
+    width: 100px;
+
+
+  }
