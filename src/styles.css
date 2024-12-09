@@ -4,15 +4,36 @@
 
     display: flex;
     justify-content: center;
-
+    margin-top: 150px;
     font-size: 100px;
 
 
   }
 
+
+  .Home-Text{
+
+    display: flex;
+    margin-top: 100px;
+
+    justify-content: center;
+    color: red;
+    font-size: 70px;
+
+  }
+
+  .Menu-tab, .Home-tab, .Contact-tab{
+
+    cursor:  pointer;
+
+
+  }
+
+
+
   .top-bar{
     position: fixed;
-    background-color: aquamarine;
+    background-color: grey;
     left: 0;
     right: 0;
     top: 0;
@@ -34,6 +55,21 @@ row-gap: 100px;
 
     height: 100px;
     width: 100px;
+
+
+  }
+
+
+  .contact-details{
+
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+
+    margin-top: 100px;
+
+    z-index: 100;
+    color: black;
 
 
   }
