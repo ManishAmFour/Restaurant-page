@@ -30,4 +30,7 @@ if(document.getElementById(`content`).contains(MenuDetails)){
 
 
 }
+
+
+
 }

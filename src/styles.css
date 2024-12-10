@@ -29,6 +29,17 @@
 
   }
 
+  .menu-details{
+
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+
+
+}
+
 
 
   .top-bar{

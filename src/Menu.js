@@ -13,6 +13,11 @@ MenuDetails = document.createElement("div");
 
 MenuDetails.innerHTML = `<div>Food number 1</div><div>Food number 1</div><div>Food number 1</div><div>Food number 1</div><div>Food number 1</div><div>Food number 1</div>`
 
+MenuDetails.classList.add(`menu-details`)
+
+
+
+console.log(MenuDetails)
 document.getElementById(`content`).appendChild(MenuDetails)
 
 if(document.getElementById(`content`).contains(Heading)){
