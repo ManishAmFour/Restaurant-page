@@ -32,10 +32,12 @@
   .menu-details{
 
     background-color: aqua;
-
+    height: 100vh;
     display: flex;
+    border-style: solid;
     flex-direction: column;
     align-items: center;  
+    padding-top: 100px;
 
 
 }
@@ -81,6 +83,15 @@ row-gap: 100px;
 
     z-index: 100;
     color: black;
+
+
+  }
+
+
+  .food-photos{
+
+    height: 100px;
+    width: 100px;
 
 
   }
