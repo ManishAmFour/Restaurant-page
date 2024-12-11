@@ -42,17 +42,26 @@ background-size: cover;
 
   .menu-details{
 
+    opacity: 0.7;
     position: absolute;
- 
-    margin-top: 800px;
+    margin-top: 900px;
     flex-direction: column;
-    align-items: center;  
     background-color: white;
     border-radius: 10px;
+    padding-right: 0px;
+    height: 400px;
 
-
+    width: 700px;
 }
 
+
+
+.foods-div{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 
 
@@ -112,7 +121,7 @@ background-size: cover;
 
     display: grid;
     grid-template-columns: 1fr auto ;
-row-gap: 100px;
+    row-gap: 100px;
   }
 
   .food{
@@ -146,3 +155,37 @@ row-gap: 100px;
 
 
   }
+
+
+  .food-first{
+
+    border-top-left-radius: 10px;
+
+
+
+  }
+
+
+  .food-second{
+
+    border-bottom-left-radius: 10px;
+
+
+  }
+
+  
+
+ .contact-div{
+
+  opacity: 0.7;
+  height: 400px;
+  background-color: antiquewhite;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+
+
+ }

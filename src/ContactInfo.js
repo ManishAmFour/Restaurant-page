@@ -10,7 +10,20 @@ export function Contact(){
 
 ContactDetails = document.createElement("div");
 
-ContactDetails.innerHTML = `<div>Random ASS TEXT</div>`;
+ContactDetails.innerHTML = `<div class="contact-div">
+
+<div>Contact Info:- 8272XXXXXX
+</div>
+<div>Gmail:- ManishTewatiaXXXXXXXXXXX
+</div>
+<div>
+Address:-
+1234 Wobbly Lane,
+Clumsyville
+
+
+</div>
+</div>`;
 
 ContactDetails.classList.add(`contact-details`);
 
