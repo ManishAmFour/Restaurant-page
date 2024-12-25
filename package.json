@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --mode development --open",
+    "dev": "webpack serve",
+    "task2": "echo 'Task 2'",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack serve --open --config webpack.prod.js",
+    "Parallel": "npm-run-all --parallel dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,12 +23,16 @@
   },
   "homepage": "https://github.com/ManishAmFour/Restaurant-page#readme",
   "devDependencies": {
+    "@eslint/js": "^9.17.0",
     "css-loader": "^7.1.2",
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.3",
     "style-loader": "^4.0.0",
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.1.0"
+    "webpack-dev-server": "^5.1.0",
+    "webpack-merge": "^6.0.1"
   }
 }
